@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>*</pattern>
+	    <that>TYPE IN THE LETTER OF YOUR ANSWER</that>
+	    <template>
+	        
+	        That's a great strength to have! <think><set name="strength"><star/></set></think>
+	        Are you ready to view your result?
+	        
+	        <think>
+	            <condition name="interest">
+	                
+	                <li value="design">
+	                    <condition name="strength">
+	                        <li value="a"><think><set name="job">software</set></think></li>
+	                        <li value="b"><think><set name="job">web</set></think></li>
+	                        <li value="c"><think><set name="job">software</set></think></li>
+	                    </condition>
+	                </li>
+	                
+	                <li value="analysis">
+	                    <condition name="strength">
+	                        <li value="a"><think><set name="job">network</set></think></li>
+	                        <li value="b"><think><set name="job">data</set></think></li>
+	                        <li value="c"><think><set name="job">cybersecurity</set></think></li>
+	                    </condition>
+	                </li>
+	                
+	            </condition>
+	        </think>
+	        
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>YES</pattern>
+	    <THAT>ARE YOU READY TO VIEW YOUR RESULT</THAT>
+	    <template><srai><get name="job"/></srai></template>
+	</category>
+	
+	
+</aiml>

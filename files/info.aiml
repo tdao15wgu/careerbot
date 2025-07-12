@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>SOFTWARE</pattern>
+	    <template>
+	        Software Developer/Engineer: 
+	        <br/><br/>
+	        Overview: 
+	        Designs and develops software with the ability 
+	        to focus on both high-level and low-level aspects, 
+	        ranging from complex algorithms to whole enterprise applications. 
+	        Also works to maintain and update previously implemented software 
+	        with business needs, scalability, and reusability in mind.
+	        <br/><br/>
+	        Why this job? You are a problem-solver with high capacity for complex 
+	        and abstract concepts. Many software applications require complex
+	        thinking that utilize abstractions and unique 
+	        solution approaches. Furthermore, as a perfectionist, you have no tolerance for 
+	        imperfections or unoptimized features. You will iteratively improve your design and 
+	        discover more aspects to improve along the way.
+	        <br/><br/>
+	        Would you like to see a list of other jobs?
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>WEB</pattern>
+	    <template>
+	        Web Developer: 
+	        <br/><br/>
+	        Overview: 
+	        Designs and builds websites, with focus on the front end 
+	        (customer-facing interface and website logic), back end 
+	        (algorithmic and data programming working behind the scenes on the website), 
+	        or both (also known as full stack). Requires a strong attention to detail 
+	        of the customer experience, both logically and human-focused.
+	        <br/><br/>
+	        Why this job? You are human-centered and detail-oriented. On both a high and low 
+	        view, you can easily identify critical points in order to make the customer experience 
+	        flawless, make the web-application fit all user needs, and you can draw valuable insights 
+	        through the web-application.
+	        <br/><br/>
+	        Would you like to see a list of other jobs?
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>DATA</pattern>
+	    <template>
+	        Data Analyst/Scientist: 
+	        <br/><br/>
+	        Overview: 
+	        Collects and verifies data, ensuring compatibility with systems. 
+	        Designs and utilizes complex data queries to gain significant insights 
+	        and discover relevant trends in data. Furthermore, the Data Analyst/Scientist 
+	        will utilize heavy statistical or machine learning methods to make data 
+	        even more useful or applicable to specific contexts. 
+	        <br/><br/>
+	        Why this job? You thrive on analysis, insights, and real-world application. You are able to 
+	        quickly analyze data sets through queries, recognize the implications of the results, and apply them 
+	        to areas of use.
+	        <br/><br/>
+	        Would you like to see a list of other jobs?
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>CYBERSECURITY</pattern>
+	    <template>
+	        Cybersecurity Analyst: 
+	        <br/><br/>
+	        Overview: 
+	        Protects an organization's computer systems and networks 
+	        from cyber threats, detecting vulnerabilities, implementing security measures, 
+	        and responding to incidents. Protects computer, data, and network systems from 
+	        threats by detecting vulnerabilities and implementing measures to mitigate risks 
+	        and address threats. Works reactively in case of attacks or discovered vulnerabilities, 
+	        but also proactively by using defense-in-depth, or multi-layered defense strategies.
+	        <br/><br/>
+	        Why this job? You are a proactive thinker who can take the measures necessary to 
+	        identify vulnerabilities and mitigate risks before they happen. You are naturally a perfectionist, 
+	        so you have no tolerance for vulnerabilities and will heavily re-analyze your systems if threats are detected. 
+	        Knowing your system well, you have already prepared for attacks so you will be ready to respond when they occur.
+	        <br/><br/>
+	        Would you like to see a list of other jobs?
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>NETWORK</pattern>
+	    <template>
+	        Network Engineer/Administrator:
+	        <br/><br/>
+	        Overview: 
+	        Designs, manages, and maintains computer networks, 
+	        ensuring technology is efficient and up-to-date. Furthermore manages user and system 
+	        roles and permissions as an administrator.
+	        <br/><br/>
+	        Why this job? You are able to handle complex and abstract problems that require heavy planning. You also have a 
+	        natural design-oriented personality, so you are ready to plan, design, build, implement, and maintain efficient and robust 
+	        network systems. Additionally, your deep knowledge of the system design allows you to effectively manage user and system roles 
+	        and permissions as an administrator.
+	        <br/><br/>
+	        Would you like to see a list of other jobs?
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>YES</pattern>
+    	<that>WOULD YOU LIKE TO SEE A LIST OF OTHER JOBS</that>
+    	<template>
+    	    Type the name of the job type that you'd like to view next!
+    	    <br/><br/>
+    	    -Software
+    	    <br/><br/>
+    	    -Web
+    	    <br/><br/>
+    	    -Data
+    	    <br/><br/>
+    	    -Cybersecurity
+    	    <br/><br/>
+    	    -Network
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>NO</pattern>
+	    <that>WOULD YOU LIKE TO SEE A LIST OF OTHER JOBS</that>
+	    <template>Great, then I hope I have successfully helped you in your career exploration! Bye!</template>
+	</category>
+	
+	
+	
+</aiml>

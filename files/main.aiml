@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>HI</pattern>
+	    <template>Hi, I'm CareerBot, your university career advisor, here to help! What's your name?</template>
+	</category>
+	
+	<category>
+	    <pattern>HELLO</pattern>
+	    <template><srai>HI</srai></template>
+	</category>
+	
+	<category>
+	    <pattern>MY NAME IS *</pattern>
+	    <template>
+	        Nice to meet you, <set name="username"><star/></set>!
+	        I'm here to help you navigate career options in the computer science field.
+	        I'll help you find your strengths and interests, utilizing them to find
+	        what I think is the best fit for you! After, I'll provide a brief overview of the job
+	        and why it might be a good fit. You can browse others if you'd like as well!
+	        Are you ready to start?
+	    </template>
+	</category>
+	
+</aiml>

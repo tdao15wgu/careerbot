@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>YES</pattern>
+	    <that>ARE YOU READY TO START</that>
+	    <template>
+	        Great! Let's start with your interest.
+	        What sounds more appealing?
+	        Design or Analysis?
+	        Type your interest.
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>*</pattern>
+	    <that>TYPE YOUR INTEREST</that>
+	    <template>
+	        Cool! It looks like your interest is <set name="interest"><star/></set>.
+	        Are you ready to move on to your strengths?
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>YES</pattern>
+	    <that>ARE YOU READY TO MOVE ON TO YOUR STRENGTHS</that>
+	    <template>
+	        Next, which one sounds like your biggest strength, even if several resonate with you?
+	        <br/>
+	        A. Problem-solving, able to work with abstract concepts.
+	        <br/>
+	        B. Human- and application-oriented, looking for ways to both apply your work to the real world and make insights about it.
+	        <br/>
+	        C. Proactive and perfectionist, quick to notice flaws and finding various ways to mitigate them.
+	        <br/>
+	        Type in the letter of your answer!
+	    </template>
+	</category>
+	
+</aiml>
